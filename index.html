@@ -5,87 +5,251 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Personal </title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Jenna Jang</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-5 pb-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-xxl-5">
-                            <!-- Header text content-->
-                            <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Neuroscience &middot; Engineering &middot; Fabrication</div></div>
-                                <div class="fs-3 fw-light text-muted"> </div>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">About Me</span></h1>
-                                <p class="lead fw-light mb-4">My name is Jenna Jang and I am a Neuroscience major and Data Science minor at Vanderbilt University.</p>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a>
-                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a>
-                                </div>
-                            </div>
-                        
-                        </div>
-                        <div class="col-xxl-7">
-                            <!-- Header profile picture-->
-                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div class="profile bg-gradient-
-                                -to-secondary">
-                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                                    <img class="profile-img" src="assets/IMG_8356.JPG" alt="..." />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-        </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Ekaterina Kelly</span>
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Profile Image" />
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awardsCert">Awards &amp; Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                </ul>
             </div>
-        </footer>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Ekaterina
+                        <span class="text-primary">Kelly</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Ithaca, NY 14850 · (904) 704-9663 ·
+                        <a href="mailto:kkelly6@ithaca.edu">kkelly6@ithaca.edu</a>
+                    </div>
+                    <p class="lead mb-5">
+                        I am a Chemistry student at Ithaca College with a passion for research. I have two years of undergraduate research experience, with expertise in Material Science, Organic Chemistry, and Physical Chemistry. I have also completed an REU in Electrochemistry at Clarkson University. I intend to begin my PhD in Physical Chemistry in the Fall of 2026.
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+
+                    <!-- Research Intern at Summer REU in Electrochemistry (May 25 2025) -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Intern, Summer Research Experience for Undergraduates in Electrochemistry</h3>
+                            <div class="subheading mb-3">P.I. Dr. Silvana Andreescu</div>
+                            <p>Clarkson University, May 25, 2025 – August 1, 2025</p>
+                            <ul>
+                                <li>Extraction of heavy metals from commercial foods</li>
+                                <li>Data analysis via square wave voltammetry and atomic absorption spectroscopy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Research Assistant in Physical Chemistry (January 2025) -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Assistant in Physical Chemistry</h3>
+                            <div class="subheading mb-3">P.I. Dr. Rebecca Craig</div>
+                            <p>Ithaca College, January 2025 – Present</p>
+                            <ul>
+                                <li>Compound analysis via Raman spectroscopy, HPLC, and gas-phase chromatography</li>
+                                <li>Determined the kinetics of pinonic acid and its derivatives</li>
+                                <li>Synthesis of organic compounds as starting materials</li>
+                                <li>Structure determination through 13C and 1H NMR, and infrared spectroscopy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Chemistry Laboratory Technician Assistant (January 2025) -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Chemistry Laboratory Technician Assistant</h3>
+                            <p>Ithaca College, January 2025 – May 2025</p>
+                            <ul>
+                                <li>Prepared chemical reagents, solutions, and standards for laboratory experiments</li>
+                                <li>Ensured proper labeling, storage, and inventory of chemicals in accordance with safety protocols (GHS standards)</li>
+                                <li>Cleaned and sterilized glassware and lab tools using appropriate protocols (e.g., acid/base washing, autoclaving)</li>
+                                <li>Assisted instructors with experiment demonstration setup and breakdown</li>
+                                <li>Monitored chemical waste disposal to ensure compliance with safety and environmental regulations</li>
+                                <li>Maintained accurate logs of chemical usage and lab supply inventory</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Research Assistant in Organic Chemistry (August 2024) -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Assistant in Organic Chemistry</h3>
+                            <div class="subheading mb-3">P.I. Dr. Mike Haaf</div>
+                            <p>Ithaca College, August 2024 – December 2024</p>
+                            <ul>
+                                <li>Multi-step synthesis of chiral silatranes</li>
+                                <li>Use of Schlenk-line techniques for handling air-sensitive compounds and intermediates</li>
+                                <li>Confirmation and analysis of compounds through spectral data (e.g., 1H and 13C NMR)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Research Assistant in Material Science (August 2023) -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Research Assistant in Material Science</h3>
+                            <div class="subheading mb-3">P.I. Dr. Janet Hunting</div>
+                            <p>Ithaca College, August 2023 – December 2023</p>
+                            <ul>
+                                <li>Synthesis of indium-containing samples via several routes, including solid-state reactions, modified Pechini methods, and microwave radiation</li>
+                                <li>Development of novel pigments by doping various transition metals into the trigonal bipyramidal sites of YInO<sub>3</sub></li>
+                                <li>Application of inorganic theories (molecular orbital theory and crystal field theory) to evaluate macroscopic properties and the effects of metal doping</li>
+                                <li>Analysis of compounds through X-ray diffraction</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Chemistry Tutor (August 2023) -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Chemistry Tutor for Undergraduate Students</h3>
+                            <p>Ithaca College, August 2023 – Present</p>
+                            <ul>
+                                <li>Provided one-on-one and group tutoring sessions for undergraduate students in Organic Chemistry I and General Chemistry I/II</li>
+                                <li>Explained complex topics such as reaction mechanisms, stoichiometry, acid-base chemistry, kinetics, thermodynamics, and spectroscopy</li>
+                                <li>Developed customized study plans to match students’ learning styles and academic goals</li>
+                                <li>Assisted students with problem-solving strategies for homework, lab reports, and exam preparation</li>
+                                <li>Clarified fundamental concepts such as hybridization, resonance, intermolecular forces, and periodic trends</li>
+                                <li>Used visual aids, models, and real-life examples to improve conceptual understanding</li>
+                                <li>Reviewed lab procedures and helped students interpret experimental results and perform error analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Ithaca College</h3>
+                            <div class="subheading mb-3">Bachelor of Science in Chemistry</div>
+                            <p>
+                                Principles of Chemistry, Quantitative Chemistry, Organic Chemistry I &amp; II, Inorganic Chemistry, Modern Instrumental Methods, Capstone in Chemistry, Quantum Chemistry &amp; Spectroscopy, Thermodynamics and Kinetics, Spectroscopy Elective, Calculus I &amp; II, Physics I &amp; II, Light and Special Relativity
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 text-end">
+                            <span class="text-primary">August 2021 – May 2026</span><br />
+                            <span class="text-primary">GPA: 3.32</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">Bachelor of Arts in Philosophy</div>
+                            <p>
+                                Introduction to Philosophy, Introduction to Logic, Introduction to Ethics, Philosophy of Art, Bioethics, Existentialism, Seeking the Buddha, Nietzsche on Beyond Good and Evil, Hegel on Introductory Lectures on Aesthetics, Philosophy of Religion, Epistemology, Intermediate Logic, Moral Philosophy
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 text-end">
+                            <span class="text-primary">August 2021 – May 2026</span><br />
+                            <span class="text-primary">GPA: 3.84</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">Minor in Writing</div>
+                            <p>
+                                
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0 text-end">
+                            <span class="text-primary">August 2021 – May 2026</span><br />
+                            <span class="text-primary">GPA: 3.83</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Methods and Tools</div>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Atomic absorption/emission spectroscopy</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>UV-Vis absorption spectroscopy</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>General spectroscopy techniques</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>X-ray fluorescence (XRF)</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Excel and analytical statistics</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Serial dilutions</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Gas chromatography (GC)</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Mass spectrometry (MS)</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>High-performance liquid chromatography (HPLC)</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Glove box and Schlenk-line techniques</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards & Certifications-->
+            <section class="resume-section" id="awardsCert">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards &amp; Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Local Section of the American Chemical Society Travel Award, Spring 2025</li>
+                        <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Dean’s List: Spring 2022, Fall 2022, Spring 2023, Fall 2024, Spring 2025</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Publications-->
+            <section class="resume-section" id="publications">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Publications</h2>
+                    <ul class="mb-3">
+                        <li>
+                            “Stereoselective Polymerizations Using Chiral Silatranes”<br />
+                            K. Kelly, R. Sen, M. P. Haaf<br />
+                            National ACS Conference, San Diego, CA, March 2025
+                        </li>
+                    </ul>
+                    <img class="img-fluid mb-2" src="assets/img/IMG_0533.jpeg" alt="Stereoselective Polymerizations Using Chiral Silatranes" />
+                </div>
+            </section>
+        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
-</html> 
+</html>
